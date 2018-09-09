@@ -1,0 +1,25 @@
+nav {
+	background:transparent;
+}
+
+.navbar-brand {
+	letter-spacing: 3px;
+	padding-left: 15px;
+}
+
+.nav-item {
+	color: #ffffff;
+}
+
+.nav-item:hover {
+	color: #ffffff;
+	background-color: rgba(80, 80, 80, 0.75);
+}
+
+#hamburger {
+	outline: none;
+}
+
+#about {
+	margin: 5px 0;
+}
