@@ -4,7 +4,15 @@
 		<title>Sahil Railkar</title>
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="style.css">
+
+		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+		<!-- Fonts CSS -->
+		<link href="https://fonts.googleapis.com/css?family=Arvo|Courgette" rel="stylesheet">
+
+		<!-- AOS -->
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	</head>
 
 	<body style="background-color: #323232;">
@@ -14,18 +22,165 @@
 		  		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" id="hamburger"> <span class="navbar-toggler-icon"></span>
 		  		</button>
 		  		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-		  			<a class="nav-item nav-link" id="about" href="#">About</a>
-		  			<a class="nav-item nav-link" href="#">Technical Heap</a>
-		  			<a class="nav-item nav-link" href="#">Projects</a>
-		  			<a class="nav-item nav-link" href="#">Hobbies</a>
+		  			<a class="nav-item nav-link" id="about" href="#about-div">About</a>
+		  			<a class="nav-item nav-link" href="#technical-heap-div">Technical Heap</a>
+		  			<a class="nav-item nav-link" href="#projects-div">Projects</a>
+		  			<a class="nav-item nav-link" href="#hobbies-div">Hobbies</a>
+		  		</div>
+
+		  		<div class="collapse navbar-collapse">
+					<a class="nav-item nav-link ml-auto" href="#contact-div">Contact</a>
 		  		</div>
 			</nav>
 		</div>
 
-		<div>
-			
+		<div id="about-div">
+			<div class="container" id="about-container">
+				<div class="row">
+					<div class="col-lg-6 col-sm-6" data-aos="flip-up" data-aos-duration="750">
+						<img id="profile" src="images/profile.jpg">
+					</div>
+					<div class="col-lg-6 col-sm-11" id="about-paragraph">
+						<h1 data-aos="zoom-in" data-aos-delay="750"><span id="hi">Hi!</span> <span id="sahil"> I'm Sahil Railkar.</span></h1>
+						<p id="description" data-aos="fade-left" data-aos-delay="1500">
+							I'm a first year student at the University of California, Irvine studying Computer Science and Statistics. In the past few years, I have worked on a few independent and team projects to expand my command over computer science skills and explore any new topics that fall in my path. Most recently, I have developed an interest in the fields of data science and artificial intelligence and am excited to implement them in my upcoming projects. Want to chat? Shoot me an email at sahil.railkar@gmail.com or srailkar@uci.edu anytime!
+						</p>
+					</div>
+				</div>
+			</div>
 		</div>
 
+		<div id="technical-heap-div">
+			<div class="container" id="technical-heap-container">
+				<div class="row">	
+					<div class="col-lg-12" data-aos="fade-up">
+						<h1 id="technical-heap-title">
+							<span class="code">&lt;h1&gt;</span> 
+							Technical Heap 
+							<span class="code">&lt;/h1&gt;</span>
+						</h1>
+					</div>
+				</div>
+				<div class="row" data-aos="fade-up">
+					<div class="col-lg-12 col-md-12 col-sm-12" id="terminal-head">
+						<span class="dot"></span>
+						<span class="dot"></span>
+						<span class="dot"></span>
+						<img id="house" src="images/house.png">
+						<span id="terminal-title">SahilRailkar –– - bash –– 80×24</span>
+					</div>
+				</div>
+				<div class="row" data-aos="fade-up">
+					<div class="col-lg-12 technical-heap-list" data-aos="fade-left">
+						<p>First login: Tue Jul 4 00:00:00 on ssrp001</p>
+						<p>Sahils-MacBook-Pro:~ SahilRailkar$ ls /users/sahilrailkar/skills/<strong><em>programming-languages</em></strong></p>
+						<strong>
+							<p>Java</p>
+							<p>Python</p>
+							<p>Swift</p>
+							<p>C++</p>
+						</strong>
+						<br>
+						<p>Sahils-MacBook-Pro:~ SahilRailkar$ ls /users/sahilrailkar/skills/<strong><em>web-development</em></strong></p>
+						<strong>
+							<p>HTML5</p>
+							<p>CSS3</p>
+							<p>JavaScript</p>
+							<p>Bootstrap 4</p>
+							<p>JSON</p>
+							<p>Node.js</p>
+						</strong>
+						<br>
+						<p>Sahils-MacBook-Pro:~ SahilRailkar$ ls /users/sahilrailkar/skills/<strong><em>libraries-apis</em></strong></p>
+						<strong>
+							<p>JavaFX</p>
+							<p>TkInter</p>
+						</strong>
+						<br>
+						<p>Sahils-MacBook-Pro:~ SahilRailkar$ ls /users/sahilrailkar/skills/<strong><em>other</em></strong></p>
+						<strong>
+							<p>Microsoft Suite</p>
+							<p>iWork</p>
+							<p>Photography</p>
+						</strong>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="projects-div">
+			<div class="container" id="projects-container">
+				<div class="row">
+					<div class="col-lg-12">
+						<h1 id="project-title">Projects <span id="more">(more to come...)</span></h1>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-4 col-md-12">
+						<div class="card" data-aos="fade-up" style="width: 18rem;">
+						  <img class="card-img-top" src="images/photomosaic.png" alt="Card image cap">
+						  <div class="card-body">
+						    <h5 class="card-title">Photomosaic Constructor</h5>
+						    <p class="card-text">A Python module which utilizes the Python Imaging Library to generate a photo mosaic given a main image and tile images.</p>
+						  </div>
+						  <div class="card-body">
+						    <a href="https://github.com/SahilRailkar/photo-mosaic" class="card-link">GitHub</a>
+						  </div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-12">
+						<div class="card" data-aos="fade-up" style="width: 18rem;">
+						  <img class="card-img-top" src="images/lifegui.gif" alt="Card image cap">
+						  <div class="card-body">
+						    <h5 class="card-title">Conway's Game of Life GUI</h5>
+						    <p class="card-text">A tkinter GUI which demonstrates Conway's Game of Life.</p>
+						  </div>
+						  <div class="card-body">
+						    <a href="https://github.com/SahilRailkar/game-of-life" class="card-link">GitHub</a>
+						  </div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-12">
+						<div class="card" data-aos="fade-up" style="width: 18rem;">
+						  <img class="card-img-top" src="images/recollect.png" alt="Card image cap">
+						  <div class="card-body">
+						    <h5 class="card-title">Recollect</h5>
+						    <p class="card-text">An award-winning app which helps Alzheimer's patients with their memory.</p>
+						  </div>
+						  <div class="card-body">
+						    <a href="https://github.com/kirankunigiri/Recollect" class="card-link">GitHub</a>
+						    <a href="https://devpost.com/software/recollect-5cmods" class="card-link">DevPost</a>
+						    <a href="https://www.youtube.com/watch?v=fqd2oI_r1UI" class="card-link">YouTube</a>
+						  </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="contact-div">
+			<div class="contact-container">
+				<div class="row">
+					<div class="col-lg-4 col-sm-1"></div>
+					<div class="col-lg-1 col-sm-12">
+						<div class="logo-container">
+							<a class="logo" id="linkedin" href="https://www.linkedin.com/in/sahil-railkar-5a38a615b/"></a>
+						</div>
+					</div>
+					<div class="col-lg-1 col-sm-12">
+						<div class="logo-container">
+							<a class="logo" id="github" href="https://www.linkedin.com/in/sahil-railkar-5a38a615b/"></a>
+						</div>
+					</div>
+					<div class="col-lg-1 col-sm-12">
+						<div class="logo-container">
+							<a class="logo" id="facebook" href="https://www.facebook.com/sahil.railkar"></a>
+						</div>				
+					</div>
+					<div class="col-lg-4 col-sm-1"></div>
+				</div>
+			</div>
+		</div>
 	</body>
 
 	<script src="https://code.jquery.com/jquery-3.3.1.js" 
@@ -33,4 +188,10 @@
 	crossorigin="anonymous"></script>
 
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		
+	<script>
+			AOS.init();
+	</script>
 </html>
