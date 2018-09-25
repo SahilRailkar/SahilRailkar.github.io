@@ -147,7 +147,7 @@ br {
 }
 
 #projects-div {
-	background-image: url("images/blueprint.png");
+	background-image: url("https://sahilrailkar.github.io/images/blueprint.png");
 }
 
 #project-title {
@@ -185,30 +185,30 @@ br {
 }
 
 a#linkedin {
-	background-image: url("images/linkedin.png");
+	background-image: url("https://sahilrailkar.github.io/images/linkedin.png");
 	display: block;
 }
 
 a#linkedin:hover {
-  background-image: url("images/colored-linkedin.png");
+  background-image: url("https://sahilrailkar.github.io/images/colored-linkedin.png");
 }
 
 a#github {
-	background-image: url("images/github.png");
+	background-image: url("https://sahilrailkar.github.io/images/github.png");
 	display: block;
 	margin-left: 25%;
 }
 
 a#github:hover { 
-	background-image: url("images/colored-github.png");
+	background-image: url("https://sahilrailkar.github.io/images/colored-github.png");
 }
 
 a#facebook {
-	background-image: url("images/facebook.png");
+	background-image: url("https://sahilrailkar.github.io/images/facebook.png");
 	display: block;
 	margin-left: 25%;
 }
 
 a#facebook:hover {
-	background-image: url("images/colored-facebook.png");
+	background-image: url("https://sahilrailkar.github.io/images/colored-facebook.png");
 }
