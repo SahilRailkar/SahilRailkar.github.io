@@ -90,7 +90,7 @@ nav {
 #terminal-head {
 	background-color: #dfdfdf;
 	height: 40px;
-	width: 400px;
+	width: 100%;
 }
 
 .code {
@@ -127,7 +127,7 @@ nav {
 }
 
 #terminal-title {
-	margin-left: 0.75%;
+	margin: auto;
 }
 
 .technical-heap-list {
@@ -196,5 +196,5 @@ br {
 }
 
 .gutter {
-	padding-bottom: 5%;
+	padding-bottom: 3%;
 }
