@@ -183,7 +183,7 @@ br {
 	margin-bottom: 20%;
 }
 
-#linkedin {
+#linkedin {%
 	display: block;
 }
 
@@ -197,4 +197,24 @@ br {
 
 .gutter {
 	padding-bottom: 3%;
+}
+
+#hobbies-div {
+	background-color: #fcd440;
+	padding: 5% 0 7.5% 0;
+}
+
+#hobbies-title {
+	margin-bottom: 5%;
+	text-align: center;
+	font-family: Pacifico;
+}
+
+.hobbies-pics {
+	height: 200px;
+	margin-left: 25%;
+}
+
+.hobbies-paragraph {
+	margin-left: 7.5%;
 }
