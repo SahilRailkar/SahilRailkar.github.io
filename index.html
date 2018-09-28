@@ -13,6 +13,10 @@
 
 		<!-- AOS -->
 		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+		<!-- Material Design -->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
 	</head>
 
 	<body style="background-color: #323232;">
@@ -46,6 +50,9 @@
 							I'm a first year student at the University of California, Irvine studying Computer Science and Statistics. In the past few years, I have worked on a few independent and team projects to expand my command over computer science skills and explore any new topics that fall in my path. Most recently, I have developed an interest in the fields of data science and artificial intelligence and am excited to implement them in my upcoming projects. Want to chat? Shoot me an email at sahil.railkar@gmail.com or srailkar@uci.edu anytime!
 						</p>
 					</div>
+				</div>
+				<div>
+					<i class="material-icons md-48 move" data-aos="zoom-in" data-aos-delay="2250"> keyboard_arrow_down </i>
 				</div>
 			</div>
 		</div>
@@ -286,7 +293,6 @@
 
 	<script>
 	 $("a").on('click', function(event) {
-	     event.preventDefault();
 	     var hash = this.hash;
 	     $('html, body').animate({
 	     	scrollTop: $(hash).offset().top
