@@ -282,7 +282,15 @@
 
 	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 		
+	<script> AOS.init(); </script>
+
 	<script>
-			AOS.init();
+	 $("a").on('click', function(event) {
+	     event.preventDefault();
+	     var hash = this.hash;
+	     $('html, body').animate({
+	     	scrollTop: $(hash).offset().top
+	     }, 1000);
+	 });
 	</script>
 </html>
