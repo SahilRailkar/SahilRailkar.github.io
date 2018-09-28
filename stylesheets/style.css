@@ -40,8 +40,8 @@ nav {
 
 #about-container {
 	margin-top: 145px;
-	margin-bottom: 135px;
-	margin-left: 150px;
+	margin-bottom: 100px;
+	margin-left: 162.5px;
 	margin-right: 150px;
 }
 
@@ -53,15 +53,13 @@ nav {
 #hi {
 	font-family: Courgette;
 	font-size: 48px;
-/*	color: #e86c1f;
-*/}
+}
 
 #sahil {
 	font-family: Arvo;
 	font-size: 42px;
 	margin-left: 5px;
-/*	color: #00bfff;
-*/}
+}
 
 #description {
 	font-size: 18px;
@@ -148,7 +146,7 @@ br {
 }
 
 #projects-div {
-	background-image: url("https://sahilrailkar.github.io/images/blueprint.jpg");
+	background-color: #292929;
 }
 
 #project-title {
@@ -219,6 +217,7 @@ br {
 
 .hobbies-paragraph {
 	margin-left: 7.5%;
+	margin-right: 5%;
 	font-family: Helvetica Neue;
 }
 
@@ -226,7 +225,7 @@ br {
 	color: white;
 	font-size: 48px;
 	margin-left: 42%;
-	margin-top: 4%;
+	padding-top: 7.5%;
 }
 
 .move {
