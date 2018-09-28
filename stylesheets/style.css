@@ -208,6 +208,7 @@ br {
 	margin-bottom: 5%;
 	text-align: center;
 	font-family: Pacifico;
+	font-size: 42px;
 }
 
 .hobbies-pics {
@@ -217,4 +218,5 @@ br {
 
 .hobbies-paragraph {
 	margin-left: 7.5%;
+	font-family: Helvetica Neue;
 }
