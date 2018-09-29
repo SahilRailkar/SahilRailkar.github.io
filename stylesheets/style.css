@@ -171,7 +171,7 @@ br {
 }
 
 .logo-container {
-	padding-left: 50%;
+	padding-left: 92.5%;
 	padding-top: 6%;
 }
 
@@ -242,4 +242,8 @@ br {
 	60% {
 	  transform: translateY(-15px);
 	}
+}
+
+.card {
+	height: 520px;
 }
