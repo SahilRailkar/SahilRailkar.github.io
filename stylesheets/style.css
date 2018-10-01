@@ -190,6 +190,10 @@ br {
 	height: 520px;
 }
 
+.card-body {
+	text-align: center;
+}
+
 #hobbies-div {
 	background-color: white;
 	padding: 5% 0 5% 0;
