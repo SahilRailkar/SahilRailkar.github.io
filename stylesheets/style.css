@@ -27,15 +27,16 @@ nav {
 }
 
 #about-div {
-	padding: 11% 11% 10% 11%;
+	padding: 0 11% 10% 11%;
 }
 
 #profile-div {
-	text-align: center;
+	padding-top: 15%;
+	text-align: left;
 }
 
 #about-paragraph {
-	padding-top: 2.2rem;
+	padding-top: 20%;
 	color: white;
 }
 
