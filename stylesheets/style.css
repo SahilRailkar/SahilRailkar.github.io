@@ -6,6 +6,11 @@ html,body
     overflow-x: hidden; 
 }
 
+#nav-div {
+	margin-bottom: 55px;
+	border: 1px solid black;
+}
+
 nav {
 	background-color: #292929;
 }
@@ -27,26 +32,28 @@ nav {
 }
 
 #about-div {
-	padding: 0 11% 10% 11%;
+	margin-top: 22.5vh;
+	margin-bottom: 22.5vh;
 }
 
 #profile-div {
-	padding-top: 15%;
-	text-align: left;
+	text-align: center;
 }
 
 #about-paragraph {
-	padding-top: 20%;
 	color: white;
+	padding: 3vh;
 }
 
 #hi {
 	font-family: Courgette;
-	font-size: 3rem;
+	font-size: 2.75rem;
+	color: #ff8552;
 }
 
 #sahil {
 	font-family: Arvo;
+	color: #ff8552;
 	font-size: 2.6rem;
 	padding-left: 0.3rem;
 }
@@ -57,11 +64,12 @@ nav {
 
 #profile {
 	border-radius: 50%;
-	width: 25rem;
+	width: 100%;
+	max-width: 400px;
 }
 
 #arrow {
-	padding-left: 48%;
+	padding-left: 45%;
 	padding-bottom: 5%;
 }
 
@@ -158,20 +166,16 @@ nav {
 	font-family: Courier New;
 	font-size: 1rem;
 	width: 25rem;
-	line-height: 0.5;
 	border-radius: 0 0 10px 10px;
 }
 
-br {
-	line-height: 1;
-}
-
 #projects-div {
+	background-image: url('../images/blueprint.jpg');
 	padding: 90px 0 90px 0;
 }
 
 #project-title {
-	font-family: IM Fell DW Pica;
+	font-family: "Permanent Marker";
 	font-size: 3rem;
 	text-align: center;
 	color: white;
@@ -184,8 +188,7 @@ br {
 }
 
 .project {
-    padding-bottom: 40px;
-    transition: transform .2s;
+	transition: transform .2s;
 }
 
 .project:hover {
@@ -195,9 +198,8 @@ br {
 .card {
 	width: 18rem;
 	height: 31rem;
-	margin: 0 auto;
-    float: none;
-    border-radius: 0 !important;
+	border-radius: 0 !important;
+	margin: 0 auto 45px auto;
 }
 
 .card-img-top {
@@ -220,6 +222,11 @@ br {
 	bottom: 1%;
 }
 
+.link {
+	font-family: "Permanent Marker";
+	text-decoration: none !important;
+}
+
 #hobbies-div {
 	background-color: white;
 	padding: 90px 0 90px 0;
@@ -235,16 +242,12 @@ br {
 .hobbies-pics {
 	height: 12.5rem;
 	display: block;
-  	margin-left: auto;
-  	margin-right: auto;
+  	margin: auto;
 }
 
 .hobbies-paragraph {
 	text-align: left;
-	margin-left: 7.5%;
-	margin-right: 5%;
-	margin-bottom: 12.5%;
-	font-family: Helvetica Neue;
+	margin: 0 5% 12.5% 7.5%;
 }
 
 #contact-div {
@@ -259,8 +262,7 @@ br {
 	width: 50px;
 	height: 50px;
 	margin-top: 100px;
-	margin-bottom: 100px;
-
+	margin-bottom: 20px;
 }
 
 #linkedin {
@@ -273,6 +275,50 @@ br {
 	margin-right: 4px;
 }
 
-/** {
+#space {
+	height: 80px;
+}
+
+@media only screen and (max-width: 991px) {
+	#about-div {
+		margin-top: 10vh;
+		margin-bottom: 10vh;
+	}
+
+	#about-paragraph {
+		color: white;
+		margin: 4vh auto 0 auto;
+	}
+
+	#profile {
+		border-radius: 50%;
+		width: 100%;
+		max-width: 350px;
+	}
+
+	#technical-heap-title {
+		font-family: Courier New;
+		font-size: 1.5rem;
+		text-align: center;
+		margin-bottom: 2rem;
+	}
+
+	.code {
+		font-size: 1rem;
+	}
+
+	.card {
+		width: 18rem;
+		height: 31rem;
+		margin: 0 auto 45px auto;
+		border-radius: 0 !important;
+	}
+
+    .hide {
+        display: none;
+    }
+}
+
+/* * {
 	border: 1px solid black;
-}*/
+} */
